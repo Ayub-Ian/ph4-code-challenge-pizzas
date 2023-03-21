@@ -1,5 +1,4 @@
 class RestaurantPizzaSerializer < ActiveModel::Serializer
-  attributes :id, :price
-  has_one :pizza
-  has_one :restaurant
+  attributes :id, :name, :address
+  has_many :pizzas
 end
