@@ -3,12 +3,12 @@ require 'Faker'
 puts "🍕 Seeding pizza ...."
 
 5.times do
-    restaurant_name = Faker::Restaurant.unique.name
+    restaurant_name = Faker::Restaurant.name
     restaurant_addy = "#{Faker::Address.building_number
-    } #{Faker::Address.unique.street_address}, #{Faker::Address.street_name
+    } #{Faker::Address.street_address}, #{Faker::Address.street_name
     }" 
     
-    pizza_name = Faker::Food.unique.dish
+    pizza_name = Faker::Food.dish
     pizza_ingredients = []
     3.times do
         pizza_ingredients << Faker::Food.ingredient
