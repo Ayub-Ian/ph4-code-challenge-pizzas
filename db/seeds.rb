@@ -1,4 +1,4 @@
-require 'Faker'
+require 'faker'
 
 puts "🍕 Seeding pizza ...."
 
@@ -19,6 +19,5 @@ puts "🍕 Seeding pizza ...."
 end
 
 puts "✅ Done seeding."
-
 
 
