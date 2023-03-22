@@ -55,6 +55,22 @@ You can setup this repository by following this manual
     ```
    http://localhost:3000
    ```
+   
+### Deployment
+You can access the api at ```https://api-restaurant-pizza.onrender.com/your-route```.
+- Example: ```https://api-restaurant-pizza.onrender.com/restaurants``` give you a list of all restaurants
+
+```{json}
+## Expected output
+[
+    {"id":1,"name":"GG Dragon","address":"24204 85764 Leanna Plaza, Myrta Green"},
+    {"id":2,"name":"Salty Steakhouse","address":"8610 190 Walker Ridge, Kassulke Mount"},
+    {"id":3,"name":"Hungry Steakhouse","address":"34956 7655 Gusikowski Ford, Drema Roads"},
+    {"id":4,"name":"Thirsty Steakhouse","address":"983 2791 Prudence Camp, Hackett Mountain"},
+    {"id":5,"name":"Blue Diner","address":"37960 391 Wolf Road, Bartoletti Prairie"}
+]
+```
+
 
 ## Application
 This application is a simple web API that allows users to:
